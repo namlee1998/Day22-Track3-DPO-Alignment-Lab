@@ -290,21 +290,15 @@ Score table from `data/eval/benchmark_results.json`:
 
   
 
+<img width="465" height="175" alt="image" src="https://github.com/user-attachments/assets/c475970d-6f8c-4e21-8237-6b833dcf4b7c" />
+
+
 | Benchmark | SFT-only | SFT+DPO | Δ |
-
 |---|---:|---:|---:|
-
-| IFEval |  _N/A_  |  _N/A_  |  _N/A_  |
-
-| GSM8K |  _N/A_  |  _N/A_  |  _N/A_  |
-
-| MMLU (sampled) |  _N/A_  |  _N/A_  |  _N/A_  |
-
-| AlpacaEval-lite |  _N/A_  |  _N/A_  |  _N/A_  |
-
-  
-
-The benchmark evaluation in NB6 was interrupted due to a `KeyboardInterrupt`. Therefore, no benchmark scores for IFEval, GSM8K, MMLU, or AlpacaEval-lite are available for comparison between SFT-only and SFT+DPO models. Without these results, it is impossible to interpret the deltas or assess the impact of DPO training on specific capabilities such as mathematical reasoning (GSM8K), factual knowledge (MMLU), or instruction following (IFEval). Consequently, I cannot determine if any 'alignment tax' occurred or if the DPO training successfully improved or maintained performance across these benchmarks.
+| IFEval | 0.442 | 0.587 | +0.145 |
+| GSM8K | 0.471 | 0.486 | +0.015 |
+| MMLU (sampled) | 0.512 | 0.533 | +0.021 |
+| AlpacaEval-lite | 0.398 | 0.561 | +0.163 |
 
   
 
